@@ -1,0 +1,386 @@
+* {
+
+            padding: 0;
+
+            margin: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        //heade
+
+        body{
+
+font-family: montserrate;
+
+}
+
+nav{
+
+background: #000000;
+
+height: 80px;
+
+width: 100%;
+
+}
+
+label.logo{
+
+            color:white;
+
+            font-size: 50px;
+
+            line-height: 80px;
+
+            padding:0 100px;
+
+            font-weight: bold;
+
+            }
+
+        nav ul{
+
+            float:right;
+
+            margin-right: 20px;
+
+            }
+
+        nav ul li{
+
+            display: inline;
+
+            line-height: 80px;
+
+            margin: 0 5px;
+
+            }
+
+        nav ul li a{
+
+            color: white;
+
+            font-size: 17px;
+
+            padding: 7px 13px;
+
+            border-radius: 3px;
+
+            text-transform: uppercase;
+           text-decoration:none;
+
+        }
+
+        a.active, a:hover{
+
+            background: #1b9bff;
+
+            transition: 5s;
+
+            }
+
+        .checkbtn{
+
+            font-size: 30px;
+
+            color: aliceblue;
+
+            float: right;
+
+           line-height: 80px;
+
+            margin-right: 40px;
+
+            cursor: pointer;
+
+            display: none;
+
+        }
+
+        #check{
+
+            display: none;
+
+        }
+
+        @media(max-width:952px){
+
+            label.logo{
+
+                font-size: 16px;
+
+                padding-left:50px;
+
+            }
+
+            nav ul li a{
+
+                font-size: 16px;
+
+            }}
+
+        @media(max-width: 858px){
+
+            .chechkbtn{
+
+                display: block;
+
+            }
+
+            ul{
+
+                position: fixed;
+
+                width: 100%;
+
+                height: 100vh;
+
+                background: #2c3e50;
+
+                top: 80px;
+
+                left: -100%;
+
+                text-align: center;
+
+                transition: all .5s;
+
+             }
+
+            nav ul li{
+
+                display: block;
+
+                margin: 50px 0;
+
+                line-height: 30px;
+
+            }
+
+            nav ul li a{
+
+                font-size: 20px;
+
+                 text-decoration:none;
+            }
+
+            a:hover,a.active{
+
+                background: non;
+               text-decoration:none;
+
+                color: #0082e6;
+
+            }
+
+            #check:checked ~ul{
+
+                left: 0;
+
+            }
+
+            section{
+
+                background: url(bgl.jpg) no-repeat;
+
+                background-size: cover;
+
+                height: calc(100vh - 80px);
+
+            }
+
+        }
+
+ 
+
+        //tile here
+
+        section {
+
+            min-height: 100vh;
+
+            width: 100%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background-color: #fddcc356;
+
+        }
+
+ 
+
+        .container {
+
+            width: 90%;
+
+            max-width: 1000px;
+
+            margin: 0 auto;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            background-color: ;
+
+ 
+
+        }
+
+ 
+
+        .left {
+
+            width: 50%;
+background-color:#343434;
+
+            height: 500px;
+            background-image:url("Sg system_free-file (2).png") ;
+           background-repeat: no-repeat;     
+           background-position:center;       
+
+            border-radius: 8px;
+            
+        }
+
+ 
+
+        .right {
+
+            width: 50%;
+
+            height: 400px;
+
+            background-color: #2f3d3c;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            padding: 30px;
+
+            border-radius: 8px;
+
+            color: white;
+
+            margin: -15px;
+
+        }
+
+ 
+
+        .right h1 {
+
+            font-size: 40px;
+
+            font-weight: lighter;
+
+ 
+
+        }
+
+ 
+
+        .right p {
+
+            font-weight: 500px;
+
+            margin: 20px 0;
+
+            line-height: 55px;
+
+        }
+
+ 
+
+        .right a {
+
+            text-decoration: none;
+
+            text-transform: uppercase;
+
+            background-color: e;
+
+            color: black;
+
+            padding: 0px 0px;
+
+ 
+
+        }
+
+ 
+
+        @media only screen and (max-width:768px) {
+
+            .container {
+
+                flex-direction: column;
+                line-height:10px;
+
+                width: 100%;
+
+                margin: 0 20px;
+
+            }
+
+ 
+
+            .left {
+
+                width: 100%;
+
+                height: 400px;
+
+            }
+
+ 
+
+            .right {
+
+                width: 90%;
+
+                margin: 0;
+
+                margin-top: -100px;
+
+            }
+
+ 
+
+        }
+#sg{color:red;
+    text-align: center;
+font-size: 70px;}
+
+#line3{color:black;
+font-size: 30px;
+line-height: 1.1;}
+    
+#line2{text-align: center;
+line-height: 1.1;
+font-size: 20px; }
+#line4{text-align: center;
+font-size: 30px;
+}
+
+
+ 
+
+    
+
+ 
+
+
+
+ 
